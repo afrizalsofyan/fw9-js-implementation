@@ -6,6 +6,6 @@ function divideAndSort(num){
        return res += el.split('').sort().join('')
     })
     console.log(res)
-    console.log(arrNum);
+    
 }
 divideAndSort(5956560159466056)
