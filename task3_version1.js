@@ -25,7 +25,7 @@ function divideAndSort(num){
             }
         
         }
-        console.log(arr[j])
+        
     }
     return arr
         
