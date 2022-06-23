@@ -5,7 +5,7 @@ function divideAndSort(num){
     arrNum.map(el=>{
        return res += el.split('').sort().join('')
     })
-    console.log(res)
+    return parseInt(res)
     
 }
-divideAndSort(5956560159466056)
+console.log(divideAndSort(5956560159466056))
