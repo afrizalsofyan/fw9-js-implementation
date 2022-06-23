@@ -25,8 +25,11 @@ while(i<=x){
 
     i++
 }
-
-arrNew = [...arr, arrLast]
+let bb=0
+for(let aa=0; aa<arr.length; aa++){
+    arrNew[aa] = arr[aa]
+    arrNew[arr.length] = arrLast
+}
 let y =arrNew.length-1
 let temp2
 for(j=y; j>=0;j--){
