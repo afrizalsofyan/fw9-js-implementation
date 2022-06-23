@@ -1,9 +1,8 @@
-const text = "malam" 
+const text = "Malam" 
 let rslt=""
 
-rslt = text.split('').reverse().join('')
-// console.log(rslt);
-if(rslt==text){
+rslt = text.toLowerCase().split('').reverse().join('')
+if(rslt==text.toLowerCase()){
     console.log('Palindrome');
 } else{
     console.log("Not Palindrome");
